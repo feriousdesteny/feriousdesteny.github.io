@@ -9,7 +9,22 @@ background-color:#5586c9
 color:white;
 
 }
+.parallax {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5586c9, 0 0 40px #5586c9, 0 0 50px #5586c9, 0 0 60px #5586c9, 0 0 70px #5586c9;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #5586c9, 0 0 40px #5586c9, 0 0 50px #5586c9, 0 0 60px #5586c9, 0 0 70px #5586c9, 0 0 80px #5586c9;
+  }
+}
 .parallax {
   /* The image used */
   background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2438013375536940927/D370DBF7BFC83ED36F783F08A598FFF3E71A1D61/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
@@ -39,7 +54,7 @@ color: white
 
 
 
-<div class="parallax" style="height: 300px"><p style="text-align: center; font-size:50px;color:white;">Welcome to my website.</p><p style="text-align:center">I am a dude who is kinda good at coding and has fun doing it.<br> I usually use HTML, CSS, and JS, but I know a bit of python and lua.</div>
+<div class="parallax" style="height: 300px"><p style="text-align: center; font-size:50px;color:white;">Welcome to my website.</p><p style="text-align:center;color:white">I am a dude who is kinda good at coding and has fun doing it.<br> I usually use HTML, CSS, and JS, but I know a bit of python and lua.</div>
 
 <div style="text-align:center;color:white">
 <h1> Pharaoh Match Game <a href="/Pharaoh-Match-Game">Here.</a></h1>
